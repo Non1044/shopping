@@ -1,7 +1,9 @@
 a. ภาษาที่ใช้
 typescript
+
 b. Node version ที่ใช้
 v18.16.1
+
 c. วีธีการลงโปรแกรม
 ลงโปรแกรม React.js และ TypeScript ดังนี้
 
