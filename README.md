@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+a. ภาษาที่ใช้
+typescript
+b. Node version ที่ใช้
+v18.16.1
+c. วีธีการลงโปรแกรม
+ลงโปรแกรม React.js และ TypeScript ดังนี้
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ติดตั้ง Node.js: React.js และ TypeScript เพื่อรันและสร้างโปรเจค React สามารถดาวน์โหลด Node.js ได้จาก เว็บไซต์หลักของ Node.js และติดตั้งตามขั้นตอนที่ระบุในเว็บไซต์.
 
-## Available Scripts
+ติดตั้ง Create React App: Create React App เป็นเครื่องมือที่ช่วยในการสร้างโปรเจค React ใช้คำสั่งต่อไปนี้เพื่อติดตั้ง Create React App โดยใช้ npm
 
-In the project directory, you can run:
+##npx create-react-app my-react-app --template typescript
 
-### `npm start`
+โดยที่ my-react-app เป็นชื่อโปรเจค สามารถเปลี่ยนชื่อตามต้องการ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+เข้าสู่โฟลเดอร์ของโปรเจค ใช้คำสั่ง cd เพื่อเข้าสู่โฟลเดอร์ของโปรเจค
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##cd my-react-app
 
-### `npm test`
+รันโปรเจค: ใช้คำสั่งต่อไปนี้เพื่อรันโปรเจค React:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##npm i
+##npm start
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+เปิดเซิร์ฟเวอร์พัฒนาและแสดงโปรเจค React ของในเบราว์เซอร์.
